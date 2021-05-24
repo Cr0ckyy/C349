@@ -16,6 +16,7 @@ class TableViewController: UITableViewController, AddEditProtocol {
         super.viewDidLoad()
         self.navigationItem.rightBarButtonItem = self.editButtonItem
         performSegue(withIdentifier: "send", sender: self)
+        
     }
     
     // MARK: - Table view data source

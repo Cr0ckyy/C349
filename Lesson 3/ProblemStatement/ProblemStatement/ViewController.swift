@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var outNumberLabel: UILabel!
     var user: User!
     var addEdit: AddEditProtocol!
+    var test = AddEditProtocol.self
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Exercise01" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="poppy &gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDv-fN-cYg">
+                                <rect key="frame" x="124" y="407" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Poppy" translatesAutoresizingMaskIntoConstraints="NO" id="6cO-Bo-v9v">
+                                <rect key="frame" x="207" y="298" width="100" height="150"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Branch" translatesAutoresizingMaskIntoConstraints="NO" id="d9d-0o-Ecs">
+                                <rect key="frame" x="107" y="448" width="100" height="150"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt; Branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Fl-n3-95c">
+                                <rect key="frame" x="227" y="468" width="69" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6cO-Bo-v9v" firstAttribute="leading" secondItem="LDv-fN-cYg" secondAttribute="trailing" constant="20" id="6fm-0t-VUf"/>
+                            <constraint firstItem="2Fl-n3-95c" firstAttribute="leading" secondItem="d9d-0o-Ecs" secondAttribute="trailing" constant="20" id="DAk-bZ-EhS"/>
+                            <constraint firstItem="6cO-Bo-v9v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KqP-7h-xh7"/>
+                            <constraint firstItem="d9d-0o-Ecs" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LhM-vS-f7O"/>
+                            <constraint firstItem="2Fl-n3-95c" firstAttribute="top" secondItem="6cO-Bo-v9v" secondAttribute="bottom" constant="20" id="NfX-LW-GR0"/>
+                            <constraint firstItem="d9d-0o-Ecs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ro5-pn-IwJ"/>
+                            <constraint firstItem="d9d-0o-Ecs" firstAttribute="top" secondItem="LDv-fN-cYg" secondAttribute="bottom" constant="20" id="ZT4-S6-WrP"/>
+                            <constraint firstItem="6cO-Bo-v9v" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aQc-pH-fdJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Branch" width="100" height="150"/>
+        <image name="Poppy" width="100" height="150"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
