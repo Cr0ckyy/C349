@@ -88,7 +88,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="129" id="Q1n-Yj-tVx"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GdS-vp-xLN">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GdS-vp-xLN">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -192,6 +192,8 @@
                         <outlet property="HeaderLabel" destination="Dgv-dU-xA2" id="F1N-hB-RFi"/>
                         <outlet property="MainImageView" destination="51q-W7-44w" id="js0-rD-cHB"/>
                         <outlet property="MainTextView" destination="eG3-vG-6J5" id="cKU-7A-poJ"/>
+                        <outlet property="collection" destination="Sws-4r-iAw" id="2LK-zb-xO5"/>
+                        <outlet property="table" destination="fQb-4A-w8o" id="jA2-fD-3bO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

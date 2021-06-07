@@ -31,6 +31,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var MainImageView: UIImageView!
     @IBOutlet weak var MainTextView: UITextView!
     
+    @IBOutlet weak var collection: UICollectionView!
+    @IBOutlet weak var table: UITableView!
     @IBOutlet weak var ExhibitLabel: UILabel!
     @IBOutlet weak var ExhibitTableView: UITableView!
     
@@ -38,10 +40,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         HeaderLabel.text = attractionName
         AddressLabel.text = address
-        MainImageView.image = UIImage(named: "Singapore_Zoo")
+        MainImageView.image = UIImage(named: "\(exhibits[Int.random(in: 0..<exhibits.count)])")
         MainTextView.text = overview
         
         ExhibitLabel.text = exhibitsTitle
+        
+        collection.delegate = self
+        collection.dataSource = self
+        table.delegate = self
+        table.dataSource = self
     }
 }
 
