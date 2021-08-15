@@ -19,7 +19,6 @@ class TableViewController: UITableViewController, ContactProtocol {
         super.viewDidLoad()
         
         self.navigationItem.leftBarButtonItem = self.editButtonItem
-        getData()
         performSegue(withIdentifier: "send", sender: self)
     }
 
