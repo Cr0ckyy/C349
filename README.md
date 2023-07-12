@@ -1,2 +1,2 @@
 # Combined_IOS_Projects
-As a diploma student at Republic Polytechnic, I took IOS-Swift-Storyboard Projects as two courses combined into one single project file. Because I couldn't find my old ones, I forked it from a coursemate.
+I took IOS-Swift-Storyboard Projects as a diploma student at Republic Polytechnic as two courses combined into one single project file. I forked it from a coursemate who studied the same course and modules as me because I couldn't find my old ones.
